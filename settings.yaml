@@ -1,0 +1,9 @@
+REPLICATE:
+  model: "replicate-internal/staging-llama-2-13b-chat-hf-mlc:39604898d2369226a318e59487e0363485ef4ac37d0f24e32f54a9ba74821c27"
+  temperature: 0.75
+  maximum_length: 5000
+  top_p: 1
+
+EMBEDDINGS:
+  embed_model_id: sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 32
